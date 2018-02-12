@@ -32,10 +32,16 @@ namespace Cube
         }
 
 
-        public IEnumerable<GroupResult<TElement>> Rollup(IEnumerable<TElement> rows){
+        public GroupResult<TElement> Rollup(IEnumerable<TElement> rows){
 
-            return RollupInternal(rows, dimentionSelectors);
-
+            // create a top level rollup result
+            GroupResult<TElement> total = new GroupResult<TElement>();
+            total.Items = rows;
+            total.Count = rows.Count();
+            total.Key = ""; // total key
+            total.RollupItem = aggregator(rows);
+            total.SubGroups = RollupInternal(rows, dimentionSelectors);
+            return total;
         }
 
         private IEnumerable<GroupResult<TElement>> RollupInternal(IEnumerable<TElement> elements, IList<Func<TElement, object>> groupSelectors){

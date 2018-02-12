@@ -44,6 +44,7 @@ namespace Cube.Tests
             var cubeRollupExecutor = new CubeRollupExecutor<SampleRow>(null, new string[] { "Dim1", "Dim2" }, aggregator);
 
             var result = cubeRollupExecutor.Rollup(rows);
+
         }
     }
 }

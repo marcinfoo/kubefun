@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{691606FF-3985-476A-A2D3-4305FC274260}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Cube/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../README.md">
     <Files>
-      <File FileName="Cube/CubeRollupExecutor.cs" Line="35" Column="1" />
-      <File FileName="Cube.Tests/TestCube.cs" Line="25" Column="13" />
-      <File FileName="Cube/Program.cs" Line="41" Column="1" />
+      <File FileName="Cube/CubeRollupExecutor.cs" Line="46" Column="9" />
+      <File FileName="Cube.Tests/TestCube.cs" Line="55" Column="47" />
+      <File FileName="Cube/Program.cs" Line="24" Column="1" />
+      <File FileName="Cube.Tests/TestUtils.cs" Line="30" Column="43" />
+      <File FileName="Cube.Tests/SampleRow.cs" Line="1" Column="1" />
+      <File FileName="Cube/GroupResult.cs" Line="1" Column="1" />
+      <File FileName="../README.md" Line="5" Column="6" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -35,12 +39,9 @@
       <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="55" column="1" />
       <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="43" column="1" />
       <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="63" column="1" />
-      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="44" column="1" />
       <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="16" column="1" />
-      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="37" column="1" />
-      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="29" column="1" />
-      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="21" column="1" />
-      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="103" column="49" />
+      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="109" column="49" />
+      <Breakpoint file="/Users/marcin/Projects/kubefun/src/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="70" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
