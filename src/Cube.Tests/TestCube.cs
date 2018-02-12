@@ -66,16 +66,6 @@ namespace Cube.Tests
             Assert.IsTrue(dim2Result.RollupItem.Fact3 == 3);
             Assert.IsTrue(dim2Result.Count == 1);
 
-            //IList<SampleRow> rows = new List<SampleRow>(){
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="CC" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="C" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="B", Dim3="CCC" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="BB", Dim3="C" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="C" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="B", Dim3="CC" },
-            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="B", Dim3="CCC" }
-            //};
-
         }
     }
 }

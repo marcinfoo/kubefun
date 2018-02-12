@@ -63,7 +63,7 @@ namespace Cube
 
                             Count = g.Count(),
 
-                            RollupItem = aggregator(g),
+                            RollupItem = CreateRollupItem(g),
 
                             Items = g,
 
