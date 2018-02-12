@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{691606FF-3985-476A-A2D3-4305FC274260}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Cube" expanded="True">
+            <Node name="Cube.Tests" expanded="True">
+              <Node name="Cube" expanded="True">
+                <Node name="Tests" expanded="True">
+                  <Node name="TestCube" expanded="True">
+                    <Node name="TestStaticDataRollup" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube.Tests/UnitTest1.cs" relfile="Cube.Tests/UnitTest1.cs" line="10" column="10" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="7" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/Program.cs" relfile="Cube/Program.cs" line="24" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="51" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="29" column="21" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="27" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="55" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="43" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/EnumerableExtensions.cs" relfile="Cube/EnumerableExtensions.cs" line="63" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="44" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="16" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="37" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube.Tests/TestCube.cs" relfile="Cube.Tests/TestCube.cs" line="27" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="21" column="1" />
+      <Breakpoint file="/Users/marcin/Projects/Cube/Cube/CubeRollupExecutor.cs" relfile="Cube/CubeRollupExecutor.cs" line="103" column="49" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Cube PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube", "Cube\Cube.csproj", "{691606FF-3985-476A-A2D3-4305FC274260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cube.Tests", "Cube.Tests\Cube.Tests.csproj", "{B71E932C-F261-4FFE-B33D-BE2921656EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691606FF-3985-476A-A2D3-4305FC274260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691606FF-3985-476A-A2D3-4305FC274260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691606FF-3985-476A-A2D3-4305FC274260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691606FF-3985-476A-A2D3-4305FC274260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71E932C-F261-4FFE-B33D-BE2921656EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71E932C-F261-4FFE-B33D-BE2921656EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71E932C-F261-4FFE-B33D-BE2921656EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71E932C-F261-4FFE-B33D-BE2921656EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

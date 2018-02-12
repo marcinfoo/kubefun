@@ -1,0 +1,10 @@
+/Users/marcin/Projects/Cube/Cube/bin/Debug/netcoreapp2.0/Cube.deps.json
+/Users/marcin/Projects/Cube/Cube/bin/Debug/netcoreapp2.0/Cube.runtimeconfig.json
+/Users/marcin/Projects/Cube/Cube/bin/Debug/netcoreapp2.0/Cube.runtimeconfig.dev.json
+/Users/marcin/Projects/Cube/Cube/bin/Debug/netcoreapp2.0/Cube.dll
+/Users/marcin/Projects/Cube/Cube/bin/Debug/netcoreapp2.0/Cube.pdb
+/Users/marcin/Projects/Cube/Cube/obj/Debug/netcoreapp2.0/Cube.csproj.CoreCompileInputs.cache
+/Users/marcin/Projects/Cube/Cube/obj/Debug/netcoreapp2.0/Cube.AssemblyInfoInputs.cache
+/Users/marcin/Projects/Cube/Cube/obj/Debug/netcoreapp2.0/Cube.AssemblyInfo.cs
+/Users/marcin/Projects/Cube/Cube/obj/Debug/netcoreapp2.0/Cube.dll
+/Users/marcin/Projects/Cube/Cube/obj/Debug/netcoreapp2.0/Cube.pdb
