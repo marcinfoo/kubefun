@@ -22,7 +22,26 @@ namespace Cube.Tests
         {
             var rows = TestUtils.GetStaticSampleRows();
 
-            var cubeRollupExecutor = new CubeRollupExecutor<SampleRow>(null, new string[] { "Dim1", "Dim2" }, null);
+            Func<IEnumerable<SampleRow>, SampleRow> aggregator = (rs) =>
+            {
+
+
+                var fact1 = rs.Select(x => x.Fact1).Sum();
+                var fact2 = rs.Select(x => x.Fact2).Sum();
+                var fact3 = rs.Select(x => x.Fact3).Sum();
+
+                var row = new SampleRow()
+                {
+                    Fact1 = fact1,
+                    Fact2 = fact2,
+                    Fact3 = fact3
+                };
+
+                return row;
+
+            };
+
+            var cubeRollupExecutor = new CubeRollupExecutor<SampleRow>(null, new string[] { "Dim1", "Dim2" }, aggregator);
 
             var result = cubeRollupExecutor.Rollup(rows);
         }
