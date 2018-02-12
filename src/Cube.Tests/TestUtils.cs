@@ -33,6 +33,7 @@ namespace Cube.Tests
                 new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="B", Dim3="CCC" }
             };
 
+
             return rows;
 
 

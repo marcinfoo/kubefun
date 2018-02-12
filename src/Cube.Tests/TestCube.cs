@@ -45,6 +45,37 @@ namespace Cube.Tests
 
             var result = cubeRollupExecutor.Rollup(rows);
 
+            Assert.IsTrue(result.RollupItem.Fact1 == 7);
+            Assert.IsTrue(result.RollupItem.Fact2 == 14);
+            Assert.IsTrue(result.RollupItem.Fact3 == 21);
+            Assert.IsTrue(result.Count == 7);
+
+            // A
+            var dim1Result = result.SubGroups.First(g=>g.Key == "A");
+            Assert.AreEqual(dim1Result.Key, "A");
+            Assert.IsTrue(dim1Result.RollupItem.Fact1 == 4);
+            Assert.IsTrue(dim1Result.RollupItem.Fact2 == 8);
+            Assert.IsTrue(dim1Result.RollupItem.Fact3 == 12);
+            Assert.IsTrue(dim1Result.Count == 4);
+
+            // A B
+            var dim2Result = dim1Result.SubGroups.First(g=>g.Key == "B");
+            Assert.AreEqual(dim2Result.Key, "B");
+            Assert.IsTrue(dim2Result.RollupItem.Fact1 == 1);
+            Assert.IsTrue(dim2Result.RollupItem.Fact2 == 2);
+            Assert.IsTrue(dim2Result.RollupItem.Fact3 == 3);
+            Assert.IsTrue(dim2Result.Count == 1);
+
+            //IList<SampleRow> rows = new List<SampleRow>(){
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="CC" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="C" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="B", Dim3="CCC" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="BB", Dim3="C" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="BB", Dim3="C" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="AA", Dim2="B", Dim3="CC" },
+            //    new SampleRow(){ Fact1=1, Fact2=2, Fact3=3, Dim1="A", Dim2="B", Dim3="CCC" }
+            //};
+
         }
     }
 }
